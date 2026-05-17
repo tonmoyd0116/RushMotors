@@ -9,5 +9,6 @@ public class Application {
     public static void main(String[] args){
         System.setProperty("spring.config.location", "classpath:/opt/");
         SpringApplication.run(Application.class,args);
+        System.out.println("Hello Work");
     }
 }
